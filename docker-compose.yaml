@@ -1,0 +1,8 @@
+version: "2.0"
+ 
+services:
+  frontend:
+    build: .
+    image: 8655710817/frontend:v1
+    ports:
+      - 8079
